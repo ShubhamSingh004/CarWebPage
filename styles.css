@@ -1,0 +1,104 @@
+/*CSS reset*/
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('./assets/Car.jpeg');
+    background-size: cover;
+    height: 300px;
+    color: white;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+
+}
+.mid{
+    display: block;
+    width: 698px;
+    margin: 20px auto;
+
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    padding-right: 78px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+
+.left{
+    position: absolute;
+    top: 33px;
+}
+
+.left img{
+    display: block;
+    height: 179px;
+    width: 161px;
+    padding: 20px 20px;
+    margin: -65px -22px;
+}
+
+.btn{
+    margin: 0px 7px;
+    background-color: black;
+    color: white;
+    padding: 8px 19px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 30px;                
+}
+
+.btn:hover{
+    background-color: rgb(126, 124, 124);
+}
+
+.container{
+    border: 2px solid white;
+    margin:132px 35px;
+    padding: 97px 16px;
+    border-radius: 20px;
+    width: 37%;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.form_group input{
+    display: block;
+    text-align: center;
+    margin: 8px auto;
+    width: 263px;
+    height: 38px;
+}
+
+.SubmitBtn{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 256px;
+}
